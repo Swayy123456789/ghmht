@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+  *{
+
+    font-family: 'Ubuntu';
+    user-select: none;
+  }
+
+  body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,116,253,1) 50%, rgba(0,0,0,1) 100%);  
+height: 100vh;
+
+  }
+
+  #menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+
+  #startButton {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,116,253,1) 50%, rgba(0,0,0,1) 100%);
+    -webkit-box-shadow:0px 0px 151px 45px rgba(95,37,204,0.9);
+-moz-box-shadow: 0px 0px 151px 45px rgba(95,37,204,0.9);
+box-shadow: 0px 0px 151px 45px rgba(95,37,204,0.9);
+border: none;
+border-radius: 5px;
+font-size: 25px;
+padding: 1em;
+padding-right: 10px;
+padding-left: 10px;
+cursor: pointer;
+filter: blur(0.5px);
+transition: 0.2 ease;
+
+ }
+
+
+ #startButton :hover {
+box-shadow: 0 0 50px red;
+filter: blur(.5px);
+-webkit-box-shadow:0px 0px 151px 45px rgba(95,37,204,0.9);
+-moz-box-shadow: 0px 0px 151px 45px rgba(95,37,204,0.9);
+box-shadow: 0px 0px 151px 45px rgba(95,37,204,0.9);
+ }
+
+  #point {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    
+display: flex;
+justify-content: center;
+align-items: center;
+border: 10px solid color(srgb red green blue);
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(180,29,253,1) 50%, rgba(0,0,0,1) 100%);
+cursor: pointer;
+filter: blur(1.5px);
+transition: 0.5s ease;
+  }
+
+  #point :hover {
+    box-shadow: 0 0 50px rgba(rgb(96, 67, 170), rgb(84, 135, 84), rgb(199, 90, 90));
+    filter: blur(.5px);
+  }
